@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Cabeça do Site -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos</title>
+</head>
+<body> <!-- Corpo do Site  -->
+    Esse texto está <strong>Negrito</strong><br>
+    Esse texto está <b>Negrito</b><br>
+    Esse texto está <em>Itálico</em><br>
+    Esse texto está <strong>Sublinhado</strong><br>
+    Esse texto está <strike>Errado</strike>
+</body>
+</html>
