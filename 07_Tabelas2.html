@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 02</title>
+</head>
+<body>
+    <h2>Tabela de Produtos</h2>
+    <table border="2" width="300"><!-- width = Largura da tabelas "Em pixels(300) ou em %(100%)" --> 
+        <tr><!-- "linha da tabela"  -->
+            <th>Código</th> <!-- "Cabeçalho da tabela" -->
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+
+        <tr>
+            <td>001</td>
+            <td>Notbook</td><!-- td = table data "dados da tabela" -->
+            <td>2.500,99</td>
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td><img src="Imagens/Tablet.jpg" width="50"> Tablet</td>
+            <td>999,99</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Ocupando 2 Linhas</td> <!-- colsapn = Extensão da LINHA -->
+            <td colspan="2">Ocupando 2 Colunas</td><!-- colsapn = Extensão da COLUNA -->
+            
+        </tr>
+        
+        <tr>
+            <td colspan="2">Ocupando 2 Colunas</td>
+        </tr>
+        <tr>
+            <td><b>Total</b></td>
+            <td colspan="2"><b>3.478,98</b></td>
+        </tr>
+
+    </table>
+</body>
+</html>
